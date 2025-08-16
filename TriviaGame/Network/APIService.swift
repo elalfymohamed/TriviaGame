@@ -1,6 +1,6 @@
 //
 //  APIService.swift
-//  TriviaGameDemo
+//  TriviaGame
 //
 //  Created by Alfy on 16/08/2025.
 //

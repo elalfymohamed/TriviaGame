@@ -1,6 +1,6 @@
 //
 //  AnswerRow.swift
-//  TriviaGameDemo
+//  TriviaGame
 //
 //  Created by Alfy on 15/08/2025.
 //

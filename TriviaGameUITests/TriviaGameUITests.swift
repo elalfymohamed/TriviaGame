@@ -1,13 +1,13 @@
 //
-//  TriviaGameDemoUITests.swift
-//  TriviaGameDemoUITests
+//  TriviaGameUITests.swift
+//  TriviaGameUITests
 //
 //  Created by Alfy on 09/08/2025.
 //
 
 import XCTest
 
-final class TriviaGameDemoUITests: XCTestCase {
+final class TriviaGameUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

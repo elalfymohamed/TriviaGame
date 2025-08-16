@@ -1,13 +1,13 @@
 //
-//  TriviaGameDemoUITestsLaunchTests.swift
-//  TriviaGameDemoUITests
+//  TriviaGameUITestsLaunchTests.swift
+//  TriviaGameUITests
 //
 //  Created by Alfy on 09/08/2025.
 //
 
 import XCTest
 
-final class TriviaGameDemoUITestsLaunchTests: XCTestCase {
+final class TriviaGameUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

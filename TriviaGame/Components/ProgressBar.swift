@@ -1,6 +1,6 @@
 //
 //  ProgressBar.swift
-//  TriviaGameDemo
+//  TriviaGame
 //
 //  Created by Alfy on 09/08/2025.
 //

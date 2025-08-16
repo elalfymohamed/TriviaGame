@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		7966CA012E47DF0A005FD60B /* PBXContainerItemProxy */ = {
+		793CB2892E50C5E0001B570F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7966C9EB2E47DF07005FD60B /* Project object */;
+			containerPortal = 793CB2732E50C5DE001B570F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7966C9F22E47DF07005FD60B;
-			remoteInfo = TriviaGameDemo;
+			remoteGlobalIDString = 793CB27A2E50C5DE001B570F;
+			remoteInfo = TriviaGame;
 		};
-		7966CA0B2E47DF0A005FD60B /* PBXContainerItemProxy */ = {
+		793CB2932E50C5E0001B570F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7966C9EB2E47DF07005FD60B /* Project object */;
+			containerPortal = 793CB2732E50C5DE001B570F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7966C9F22E47DF07005FD60B;
-			remoteInfo = TriviaGameDemo;
+			remoteGlobalIDString = 793CB27A2E50C5DE001B570F;
+			remoteInfo = TriviaGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7966C9F32E47DF07005FD60B /* TriviaGameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7966CA002E47DF0A005FD60B /* TriviaGameDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7966CA0A2E47DF0A005FD60B /* TriviaGameDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793CB27B2E50C5DE001B570F /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		793CB2882E50C5E0001B570F /* TriviaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793CB2922E50C5E0001B570F /* TriviaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7966C9F52E47DF07005FD60B /* TriviaGameDemo */ = {
+		793CB27D2E50C5DE001B570F /* TriviaGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TriviaGameDemo;
+			path = TriviaGame;
 			sourceTree = "<group>";
 		};
-		7966CA032E47DF0A005FD60B /* TriviaGameDemoTests */ = {
+		793CB28B2E50C5E0001B570F /* TriviaGameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TriviaGameDemoTests;
+			path = TriviaGameTests;
 			sourceTree = "<group>";
 		};
-		7966CA0D2E47DF0A005FD60B /* TriviaGameDemoUITests */ = {
+		793CB2952E50C5E0001B570F /* TriviaGameUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TriviaGameDemoUITests;
+			path = TriviaGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7966C9F02E47DF07005FD60B /* Frameworks */ = {
+		793CB2782E50C5DE001B570F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966C9FD2E47DF0A005FD60B /* Frameworks */ = {
+		793CB2852E50C5E0001B570F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966CA072E47DF0A005FD60B /* Frameworks */ = {
+		793CB28F2E50C5E0001B570F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7966C9EA2E47DF07005FD60B = {
+		793CB2722E50C5DE001B570F = {
 			isa = PBXGroup;
 			children = (
-				7966C9F52E47DF07005FD60B /* TriviaGameDemo */,
-				7966CA032E47DF0A005FD60B /* TriviaGameDemoTests */,
-				7966CA0D2E47DF0A005FD60B /* TriviaGameDemoUITests */,
-				7966C9F42E47DF07005FD60B /* Products */,
+				793CB27D2E50C5DE001B570F /* TriviaGame */,
+				793CB28B2E50C5E0001B570F /* TriviaGameTests */,
+				793CB2952E50C5E0001B570F /* TriviaGameUITests */,
+				793CB27C2E50C5DE001B570F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7966C9F42E47DF07005FD60B /* Products */ = {
+		793CB27C2E50C5DE001B570F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7966C9F32E47DF07005FD60B /* TriviaGameDemo.app */,
-				7966CA002E47DF0A005FD60B /* TriviaGameDemoTests.xctest */,
-				7966CA0A2E47DF0A005FD60B /* TriviaGameDemoUITests.xctest */,
+				793CB27B2E50C5DE001B570F /* TriviaGame.app */,
+				793CB2882E50C5E0001B570F /* TriviaGameTests.xctest */,
+				793CB2922E50C5E0001B570F /* TriviaGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7966C9F22E47DF07005FD60B /* TriviaGameDemo */ = {
+		793CB27A2E50C5DE001B570F /* TriviaGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7966CA142E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemo" */;
+			buildConfigurationList = 793CB29C2E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGame" */;
 			buildPhases = (
-				7966C9EF2E47DF07005FD60B /* Sources */,
-				7966C9F02E47DF07005FD60B /* Frameworks */,
-				7966C9F12E47DF07005FD60B /* Resources */,
+				793CB2772E50C5DE001B570F /* Sources */,
+				793CB2782E50C5DE001B570F /* Frameworks */,
+				793CB2792E50C5DE001B570F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7966C9F52E47DF07005FD60B /* TriviaGameDemo */,
+				793CB27D2E50C5DE001B570F /* TriviaGame */,
 			);
-			name = TriviaGameDemo;
+			name = TriviaGame;
 			packageProductDependencies = (
 			);
-			productName = TriviaGameDemo;
-			productReference = 7966C9F32E47DF07005FD60B /* TriviaGameDemo.app */;
+			productName = TriviaGame;
+			productReference = 793CB27B2E50C5DE001B570F /* TriviaGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7966C9FF2E47DF0A005FD60B /* TriviaGameDemoTests */ = {
+		793CB2872E50C5E0001B570F /* TriviaGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7966CA172E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemoTests" */;
+			buildConfigurationList = 793CB29F2E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGameTests" */;
 			buildPhases = (
-				7966C9FC2E47DF0A005FD60B /* Sources */,
-				7966C9FD2E47DF0A005FD60B /* Frameworks */,
-				7966C9FE2E47DF0A005FD60B /* Resources */,
+				793CB2842E50C5E0001B570F /* Sources */,
+				793CB2852E50C5E0001B570F /* Frameworks */,
+				793CB2862E50C5E0001B570F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7966CA022E47DF0A005FD60B /* PBXTargetDependency */,
+				793CB28A2E50C5E0001B570F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7966CA032E47DF0A005FD60B /* TriviaGameDemoTests */,
+				793CB28B2E50C5E0001B570F /* TriviaGameTests */,
 			);
-			name = TriviaGameDemoTests;
+			name = TriviaGameTests;
 			packageProductDependencies = (
 			);
-			productName = TriviaGameDemoTests;
-			productReference = 7966CA002E47DF0A005FD60B /* TriviaGameDemoTests.xctest */;
+			productName = TriviaGameTests;
+			productReference = 793CB2882E50C5E0001B570F /* TriviaGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7966CA092E47DF0A005FD60B /* TriviaGameDemoUITests */ = {
+		793CB2912E50C5E0001B570F /* TriviaGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7966CA1A2E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemoUITests" */;
+			buildConfigurationList = 793CB2A22E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGameUITests" */;
 			buildPhases = (
-				7966CA062E47DF0A005FD60B /* Sources */,
-				7966CA072E47DF0A005FD60B /* Frameworks */,
-				7966CA082E47DF0A005FD60B /* Resources */,
+				793CB28E2E50C5E0001B570F /* Sources */,
+				793CB28F2E50C5E0001B570F /* Frameworks */,
+				793CB2902E50C5E0001B570F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7966CA0C2E47DF0A005FD60B /* PBXTargetDependency */,
+				793CB2942E50C5E0001B570F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7966CA0D2E47DF0A005FD60B /* TriviaGameDemoUITests */,
+				793CB2952E50C5E0001B570F /* TriviaGameUITests */,
 			);
-			name = TriviaGameDemoUITests;
+			name = TriviaGameUITests;
 			packageProductDependencies = (
 			);
-			productName = TriviaGameDemoUITests;
-			productReference = 7966CA0A2E47DF0A005FD60B /* TriviaGameDemoUITests.xctest */;
+			productName = TriviaGameUITests;
+			productReference = 793CB2922E50C5E0001B570F /* TriviaGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7966C9EB2E47DF07005FD60B /* Project object */ = {
+		793CB2732E50C5DE001B570F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					7966C9F22E47DF07005FD60B = {
+					793CB27A2E50C5DE001B570F = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					7966C9FF2E47DF0A005FD60B = {
+					793CB2872E50C5E0001B570F = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 7966C9F22E47DF07005FD60B;
+						TestTargetID = 793CB27A2E50C5DE001B570F;
 					};
-					7966CA092E47DF0A005FD60B = {
+					793CB2912E50C5E0001B570F = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 7966C9F22E47DF07005FD60B;
+						TestTargetID = 793CB27A2E50C5DE001B570F;
 					};
 				};
 			};
-			buildConfigurationList = 7966C9EE2E47DF07005FD60B /* Build configuration list for PBXProject "TriviaGameDemo" */;
+			buildConfigurationList = 793CB2762E50C5DE001B570F /* Build configuration list for PBXProject "TriviaGame" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7966C9EA2E47DF07005FD60B;
+			mainGroup = 793CB2722E50C5DE001B570F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7966C9F42E47DF07005FD60B /* Products */;
+			productRefGroup = 793CB27C2E50C5DE001B570F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7966C9F22E47DF07005FD60B /* TriviaGameDemo */,
-				7966C9FF2E47DF0A005FD60B /* TriviaGameDemoTests */,
-				7966CA092E47DF0A005FD60B /* TriviaGameDemoUITests */,
+				793CB27A2E50C5DE001B570F /* TriviaGame */,
+				793CB2872E50C5E0001B570F /* TriviaGameTests */,
+				793CB2912E50C5E0001B570F /* TriviaGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7966C9F12E47DF07005FD60B /* Resources */ = {
+		793CB2792E50C5DE001B570F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966C9FE2E47DF0A005FD60B /* Resources */ = {
+		793CB2862E50C5E0001B570F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966CA082E47DF0A005FD60B /* Resources */ = {
+		793CB2902E50C5E0001B570F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7966C9EF2E47DF07005FD60B /* Sources */ = {
+		793CB2772E50C5DE001B570F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966C9FC2E47DF0A005FD60B /* Sources */ = {
+		793CB2842E50C5E0001B570F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7966CA062E47DF0A005FD60B /* Sources */ = {
+		793CB28E2E50C5E0001B570F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7966CA022E47DF0A005FD60B /* PBXTargetDependency */ = {
+		793CB28A2E50C5E0001B570F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7966C9F22E47DF07005FD60B /* TriviaGameDemo */;
-			targetProxy = 7966CA012E47DF0A005FD60B /* PBXContainerItemProxy */;
+			target = 793CB27A2E50C5DE001B570F /* TriviaGame */;
+			targetProxy = 793CB2892E50C5E0001B570F /* PBXContainerItemProxy */;
 		};
-		7966CA0C2E47DF0A005FD60B /* PBXTargetDependency */ = {
+		793CB2942E50C5E0001B570F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7966C9F22E47DF07005FD60B /* TriviaGameDemo */;
-			targetProxy = 7966CA0B2E47DF0A005FD60B /* PBXContainerItemProxy */;
+			target = 793CB27A2E50C5DE001B570F /* TriviaGame */;
+			targetProxy = 793CB2932E50C5E0001B570F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7966CA122E47DF0A005FD60B /* Debug */ = {
+		793CB29A2E50C5E0001B570F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		7966CA132E47DF0A005FD60B /* Release */ = {
+		793CB29B2E50C5E0001B570F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +388,7 @@
 			};
 			name = Release;
 		};
-		7966CA152E47DF0A005FD60B /* Debug */ = {
+		793CB29D2E50C5E0001B570F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -407,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -415,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		7966CA162E47DF0A005FD60B /* Release */ = {
+		793CB29E2E50C5E0001B570F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -434,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,7 +442,7 @@
 			};
 			name = Release;
 		};
-		7966CA182E47DF0A005FD60B /* Debug */ = {
+		793CB2A02E50C5E0001B570F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,16 +451,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaGameDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriviaGameDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriviaGame";
 			};
 			name = Debug;
 		};
-		7966CA192E47DF0A005FD60B /* Release */ = {
+		793CB2A12E50C5E0001B570F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,87 +469,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaGameDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriviaGameDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriviaGame";
 			};
 			name = Release;
 		};
-		7966CA1B2E47DF0A005FD60B /* Debug */ = {
+		793CB2A32E50C5E0001B570F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TriviaGameDemo;
+				TEST_TARGET_NAME = TriviaGame;
 			};
 			name = Debug;
 		};
-		7966CA1C2E47DF0A005FD60B /* Release */ = {
+		793CB2A42E50C5E0001B570F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = alfy.TriviaGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TriviaGameDemo;
+				TEST_TARGET_NAME = TriviaGame;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7966C9EE2E47DF07005FD60B /* Build configuration list for PBXProject "TriviaGameDemo" */ = {
+		793CB2762E50C5DE001B570F /* Build configuration list for PBXProject "TriviaGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7966CA122E47DF0A005FD60B /* Debug */,
-				7966CA132E47DF0A005FD60B /* Release */,
+				793CB29A2E50C5E0001B570F /* Debug */,
+				793CB29B2E50C5E0001B570F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7966CA142E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemo" */ = {
+		793CB29C2E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7966CA152E47DF0A005FD60B /* Debug */,
-				7966CA162E47DF0A005FD60B /* Release */,
+				793CB29D2E50C5E0001B570F /* Debug */,
+				793CB29E2E50C5E0001B570F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7966CA172E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemoTests" */ = {
+		793CB29F2E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7966CA182E47DF0A005FD60B /* Debug */,
-				7966CA192E47DF0A005FD60B /* Release */,
+				793CB2A02E50C5E0001B570F /* Debug */,
+				793CB2A12E50C5E0001B570F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7966CA1A2E47DF0A005FD60B /* Build configuration list for PBXNativeTarget "TriviaGameDemoUITests" */ = {
+		793CB2A22E50C5E0001B570F /* Build configuration list for PBXNativeTarget "TriviaGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7966CA1B2E47DF0A005FD60B /* Debug */,
-				7966CA1C2E47DF0A005FD60B /* Release */,
+				793CB2A32E50C5E0001B570F /* Debug */,
+				793CB2A42E50C5E0001B570F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7966C9EB2E47DF07005FD60B /* Project object */;
+	rootObject = 793CB2732E50C5DE001B570F /* Project object */;
 }
