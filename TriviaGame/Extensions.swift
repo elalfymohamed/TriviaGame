@@ -11,8 +11,8 @@ import SwiftUI
 
 
 extension Text {
-    func customLilacTitle() -> some View{
-        self.font(.title)
+    func customLilacTitle(size:Int = 30) -> some View{
+        self.font(.system(size: CGFloat(size)))
             .fontWeight(.heavy)
             .foregroundColor(Color("AccentColor"))
             .padding(.vertical, 0)
