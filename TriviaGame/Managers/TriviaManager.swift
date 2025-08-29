@@ -41,6 +41,7 @@ class  TriviaManager: ObservableObject {
         if index + 1 < length{
             index += 1
             setQuestion()
+           
         }else{
             reachedEnd = true
         }
