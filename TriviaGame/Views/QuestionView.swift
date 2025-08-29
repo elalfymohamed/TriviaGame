@@ -15,7 +15,7 @@ struct QuestionView: View {
                 VStack(spacing: 40){
                     HStack{
                         Text("Trivia Game")
-                            .customLilacTitle()
+                            .customLilacTitle(size: 20)
                             .monospaced(true)
                         
                         Spacer()
@@ -55,7 +55,7 @@ struct QuestionView: View {
                 
             }
             .customVStackStyle()
-            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         
     }
 }
