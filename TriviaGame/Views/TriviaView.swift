@@ -12,25 +12,28 @@ struct TriviaView: View {
 
     var body: some View {
         if triviaManager.reachedEnd {
-            VStack(spacing: 20) {
-                Text("Trivia Game")
-                    .customLilacTitle()
+            NavigationView{
                 
-                Text("Congratulations, you completed the game! ")
-                Text("You scored \(triviaManager.score) out of \(triviaManager.length)")
-                
-                
-//                Button{
-//
-//                }label:{
-//                    PrimaryButton(text: "Play again")
-//                }
+                VStack(spacing: 20) {
+                    Text("Trivia Game")
+                        .customLilacTitle()
+                    
+                    Text("Congratulations, you completed the game! ")
+                    Text("You scored \(triviaManager.score) out of \(triviaManager.length)")
+                    
+                    
+                    NavigationLink{
+                        ContentView()
+                    }label:{
+                        PrimaryButton(text: "Play again")
+                    }
+                }
+                .foregroundColor(Color("AccentColor"))
+                .padding()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color("#F7F4EA"))
             }
-            .foregroundColor(Color("AccentColor"))
-            .padding()
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(red: 0.984313725490196, green: 0.9294117647068824, blue: 0.8470588235294118))
-            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
 
         }else{
             QuestionView()
