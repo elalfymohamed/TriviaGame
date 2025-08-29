@@ -7,8 +7,13 @@
 
 import SwiftUI
 
+enum Route: Hashable {
+    case startGame
+}
+
 struct FormView: View {
     @State var playerName: String = ""
+    @State private var isGameStarted: Bool = false
     
     func storePlayerName(){
         UserDefaults.standard.set(playerName, forKey: "playerName")
@@ -22,19 +27,37 @@ struct FormView: View {
                 Text("First, Player Name 🔫")
                     .font(.system(size: 20, weight: .bold))
                     .foregroundColor(Color("AccentColor"))
-                
+                    
                 
                 TextFieldCustom(value: $playerName)
                 
                 
-               
-                    PrimaryButton(text: "Go")
-                
+                NavigationLink(
+                    destination: StartGameView(playerName: playerName),
+                                   isActive: $isGameStarted
+                               ) {
+                                   EmptyView()
+                               }
 
                 
+                Button{
+                    guard !playerName.isEmpty else {return}
+                    
+                    storePlayerName()
+                    isGameStarted = true
+                    
+                }label:{
+                    PrimaryButton(text: "Submit",backgroud: !playerName.isEmpty ? Color("AccentColor") : Color(hue: 1.0, saturation: 0.0, brightness: 0.543, opacity: 0.327))
+                }
+                .disabled(playerName.isEmpty)
+                .accessibilityLabel("Submit player name")
+                
+                    
             }
             .customVStackStyle()
         }
+        .navigationBarBackButtonHidden(true)
+        
     }
 }
 
