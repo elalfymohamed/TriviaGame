@@ -11,22 +11,25 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-            VStack(spacing: 40) {
+            VStack(spacing: 20) {
                 VStack(spacing: 20) {
                     Text("Welcome to Trivia Game! 👋🏻")
-                        .customLilacTitle()
+                        .customLilacTitle(size: 27)
                 }
+                .padding()
                 
                 NavigationLink{
-                    StartGameView()
+                    FormView()
                        
                 }label:{
-                    PrimaryButton(text: "Next")
+                    PrimaryButton(text: "Let's, Start")
                 }
                 
             }
             .customVStackStyle()
+            
         }
+        .navigationBarBackButtonHidden(true)
       
     }
 }
