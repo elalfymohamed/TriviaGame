@@ -14,10 +14,10 @@ struct PrimaryButton: View {
     var body: some View {
         Text(text)
             .foregroundColor(.white)
-            .padding()
-            .padding(.horizontal)
+            .padding(.vertical)
+            .padding(.horizontal, 30)
             .background(backgroud)
-            .cornerRadius(30)
+            .cornerRadius(17)
             .shadow(radius: 10)
             .font(.system(size: 17, weight: .bold))
             
