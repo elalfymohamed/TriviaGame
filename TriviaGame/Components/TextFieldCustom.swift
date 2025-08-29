@@ -11,29 +11,23 @@ struct TextFieldCustom: View {
     @Binding var value: String
     
     var body: some View {
-            VStack(spacing: 5){
+            VStack(spacing: 8){
                
-                   
-                TextField("Player ...",
-                          text: $value,
-                     )
+                TextField("Player ...", text: $value,)
                 .textInputAutocapitalization(.words)
                 .padding(10)
                 .overlay(
                   RoundedRectangle(cornerRadius: 10)
                     .stroke(Color("AccentColor"), lineWidth: 1)
                      )
-                .onChange(of: value) { newValue in
+                 .onChange(of: value) { newValue in
                     if newValue.count > 20 {
                         value = String(newValue.prefix(20))
                     }
                 }
-
-                
             }
             .padding()
         }
-        
 }
 
 //#Preview {
